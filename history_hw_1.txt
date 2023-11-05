@@ -1,0 +1,8 @@
+   0 mkdir -p /opt/test/Serhii
+   1 cd /opt/test/Serhii/
+   2 touch file.txt
+   3 cd
+   4 cp /opt/test/Serhii/file.txt /tmp/file2.txt
+   5 rm /opt/test/Serhii/file.txt 
+   6 tree /tmp/
+   7 history > history_hw1.txt
